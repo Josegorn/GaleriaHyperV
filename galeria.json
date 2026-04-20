@@ -307,16 +307,19 @@
                 "archiveRelativePath": "Solus-Budgie-Release-2026-04-18.iso"
             },
             "logo": {
-                "uri": "https://getsol.us/imgs/Solus_With_Text_Dark.svg",
-                "hash": "sha256:7214fb4c21b5cd1565fc4118b6bba5e162c4839129a16f2ac7fed4ac7a8c66f5"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Solus/logo.png",
+                "hash": "sha256:64a85ed74c0e80599a6f11c7536dddbf76c10aaa3a95cabfe5ba3ce3320f4071",
+                "archiveRelativePath": "./Solus/logo.png"
             },
             "symbol": {
-                "uri": "https://getsol.us/imgs/Solus.svg",
-                "hash": "sha256:0847f800ac73cc47cc9a6632c09e3f44cc6f653522d91924b113dcba3a5b50e3"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Solus/symbol.png",
+                "hash": "sha256:c29e1ffbc0768a743d1bf45062c8d2bb7230916df0ab005fd62b8ccd1750b2de",
+                "archiveRelativePath": "./Solus/symbol.png"
             },
             "thumbnail": {
                 "uri": "https://getsol.us/imgs/laptop-image.webp",
-                "hash": "sha256:9999205a703a18550d2e0cbbb2f2a0b888e01b25defb608369328101c17d37e8"
+                "hash": "sha256:9999205a703a18550d2e0cbbb2f2a0b888e01b25defb608369328101c17d37e8",
+                "archiveRelativePath": "./Solus/thumbnail.webp"
             },
             "details": [
                 {
