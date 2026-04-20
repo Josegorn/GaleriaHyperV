@@ -2,8 +2,70 @@
     "$schema": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/refs/heads/live/hyperv-tools/vmgallery/vm-gallery-schema.json",
     "images": [
         {
+            "name":  "Ubuntu Desktop",
+            "version": "24.04.4 LTS",
+            "locale":  "en_US",
+            "publisher":  "Canonical",
+            "lastUpdated":  "2026-04-20T11:45:00Z",
+            "description":  [
+                "CrunchBang++ (o #!++) es una distribución de Linux basada en Debian, diseñada para ser extremadamente ligera, rápida y minimalista.",
+                "\r\n",
+                "Utiliza el gestor de ventanas Openbox, ofreciendo un entorno de trabajo eficiente y altamente personalizable que consume recursos mínimos.",
+                "\r\n",
+                "Es considerada la continuación comunitaria del proyecto original CrunchBang, ideal para revitalizar equipos con hardware antiguo.",
+                "\r\n"
+            ],
+            "config":
+            {
+                "secureBoot": "false"
+            },
+            "requirements":  
+            {
+                "diskSpace": "8176568320" 
+            },
+            "disk":  {
+                "uri":  "Https://www.kimikaze.es/ISOs/cbpp-13.0-amd64-20250819.iso",
+                "hash":  "SHA256:222dfb458bc6655ab0f819160d89a92de1d179d2f49e3a516a2c253dc4b5c6b3",
+                "archiveRelativePath": "./CrunchBangplusplus/cbpp-13.0-amd64-20250819.iso"
+                
+            },
+            "logo":  {
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/CrunchBangplusplus/logo.png",
+                "hash":  "SHA256:21d86b6dcfb020ba83002914b81cb4454d67773235ff9875ae0a8011e6ec4ab7",
+                "archiveRelativePath":  "./CrunchBangplusplus/logo.png"
+            },
+            "symbol":  {
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/CrunchBangplusplus/symbol.png",
+                "hash": "SHA256:da27302013c063ea31bbc42322979e4b759778f8be5acd67735167f4153e2b27",
+                "archiveRelativePath": "./CrunchBangplusplus/symbol.png"
+            },
+            "thumbnail":  {
+                "uri": "https://www.crunchbangplusplus.org/images/2023-06-11--1686519304_1056x800_scrot.png",
+                "hash": "SHA256:3b5c12f183b238aca3759f53974dc004a779baabb241f62958f370cb405674d5",
+                "archiveRelativePath": "./CrunchBangplusplus/thumbnail.png"
+            },
+            "details": [
+                {
+                    "name": "Edición",
+                    "value": "Trixie (Debian 10)"
+                },
+                {
+                    "name": "Copyright",
+                    "value": "Copyright (c) Crunchbangplusplus"
+                },
+                {
+                    "name": "Website",
+                    "value": "https://crunchbangplusplus.org"
+                },
+                {
+                    "name": "Requisitos",
+                    "value": "256 MiB RAM, 10 GiB en disco"
+                }
+            ]
+        },        
+        {
             "name":  "CrunchBangplusplus",
-            "version": "CrunchBangplusplus 13.0 Trixie",
+            "version": "13.0 (Trixie)",
             "locale":  "en_US",
             "publisher":  "CrunchBangplusplus Team",
             "lastUpdated":  "2026-04-19T08:40:00Z",
@@ -569,17 +631,17 @@
                 "archiveRelativePath": "archlinux-2026.04.01-x86_64.iso"
             },
             "logo": {
-                "uri": "https://archlinux.org/static/logos/archlinux-logo-dark-1200dpi.png",
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Arch Linux/logo.png",
                 "hash": "sha256:2bbc3255007f4333430d8fdcc52919c0802698bea92401c53c89f5b71fa10c35",
                 "archiveRelativePath": "./Arch Linux/logo.png"
             },
             "symbol": {
-                "uri": "https://wiki.sugarlabs.org/images/f/f9/Arch-linux-logo.png",
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Arch Linux/symbol.png",
                 "hash": "sha256:cf9e26085eae41533781e66ea84677f9e8158dedfbfaf9450ed1b4760496d66a",
                 "archiveRelativePath": "./Arch Linux/symbol.png"
             },
             "thumbnail": {
-                "uri": "https://www.arcolinuxd.com/wp-content/uploads/2025/02/arch-to-arco-1080x675.jpg",
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Arch Linux/thumbnail.jpg",
                 "hash": "sha256:36d8300f51876558646858dc4e065aa3aa66f07a35f7b22fe2cd1afe41bce9f9",
                 "archiveRelativePath": "./Arch Linux/thumbnail.jpg"
             },
@@ -597,6 +659,62 @@
                     "value": "512 MiB RAM, 2 GiB en disco"
                 }
             ]
-        }
+        },
+        {
+            "name": "Qubes OS",
+            "version": "4.3.0",
+            //"locale": "en-US",
+            "publisher": "Qubes OS Project",
+            "lastUpdated": "2026-04-20T11:00:00Z",
+            "description": [
+                "Qubes OS es un sistema operativo centrado en la seguridad por aislamiento que utiliza el hipervisor Xen para crear máquinas virtuales independientes llamadas \"qubes\". ",
+                "Cada tarea, como la banca o el trabajo, se ejecuta en un compartimento estanco, evitando que un virus en uno afecte a los demás. ",
+                "Permite el uso de VM desechables y gestiona redes y USB de forma aislada para proteger el núcleo del sistema. ",
+                "Es una herramienta avanzada basada en Linux, diseñada para quienes requieren el máximo nivel de privacidad y control.",
+                "\r\n\r\n",
+                "https://www.qubes-os.org",
+                "\r\n\r\n"
+            ],
+            "config": {
+                "secureBoot": "false"
+            },
+            "requirements": {
+                "diskSpace": "8176568320"
+            },
+            "disk": {
+                "uri": "https://mirrors.edge.kernel.org/qubes/iso/Qubes-R4.3.0-x86_64.iso",
+                "hash": "sha256:29b3e8f26f709c9b8a76ecc0f787feddf34383fece74f2d068908cba7a7e9998",
+                "archiveRelativePath": "Qubes-R4.3.0-x86_64.iso"
+            },
+            "logo": {
+                "uri": "https://forum.qubes-os.org/uploads/db3820/original/1X/3901cdb180662bee7fe27ab06f601c68b1025c0c.png",
+                "hash": "sha256:b08853d4a8124af8079381c5e242f26a16e4f38ee92beef9cfc35dc9fc5fde80",
+                "archiveRelativePath": "./Qubes OS/logo.png"
+            },
+            "symbol": {
+                "uri": "https://www.qubes-os.org/attachment/icons/128x128/apps/qubes-logo-icon.png",
+                "hash": "sha256:de8116e0c35bc4f77050ac91d28394dc560c2c54329482d06fdac06bf17b7361",
+                "archiveRelativePath": "./Qubes OS/symbol.png"
+            },
+            "thumbnail": {
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Qubes OS/thumbnail.png",
+                "hash": "sha256:33b4cdd807b4ca6d6fb92e78630f341e1a2d2fc8752fed1d3d5cabf941586dc3",
+                "archiveRelativePath": "./Qubes OS/thumbnail.png"
+            },
+            "details": [
+                {
+                    "name": "Copyright",
+                    "value": "Copyright (c) Qubes OS"
+                },
+                {
+                    "name": "Website",
+                    "value": "https://www.qubes-os.org"
+                },
+                {
+                    "name": "Requisitos",
+                    "value": "6 GiB RAM, 32 GiB en disco"
+                }
+            ]
+            }
     ]
 }
