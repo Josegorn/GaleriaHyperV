@@ -1,12 +1,11 @@
 {
     "$schema": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/refs/heads/live/hyperv-tools/vmgallery/vm-gallery-schema.json",
-
     "images": [
         {
             "name":  "CrunchBangplusplus",
             "version": "CrunchBangplusplus 13.0 Trixie",
             "locale":  "en_US",
-            "publisher":  "Local",
+            "publisher":  "https://crunchbangplusplus.org",
             "lastUpdated":  "2026-04-19T08:40:35Z",
             "description":  [
                 "CrunchBang++ (o #!++) es una distribución de Linux basada en Debian, diseñada para ser extremadamente ligera, rápida y minimalista.",
@@ -31,16 +30,19 @@
                 
             },
             "logo":  {
-                "uri":  "./CrunchBangplusplus./logo.png",
-                "hash":  "SHA256:c6ff7e3eb0d1dd1496c9f952b11e966c499ccbb9d1af1cfdba83e48378d48379"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/CrunchBangplusplus/logo.png",
+                "hash":  "SHA256:c6ff7e3eb0d1dd1496c9f952b11e966c499ccbb9d1af1cfdba83e48378d48379",
+                "archiveRelativePath":  "./CrunchBangplusplus/logo.png"
             },
             "symbol":  {
-                "uri": "./CrunchBangplusplus./logo.png",
-                "hash": "SHA256:c6ff7e3eb0d1dd1496c9f952b11e966c499ccbb9d1af1cfdba83e48378d48379"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/CrunchBangplusplus/symbol.png",
+                "hash": "SHA256:c6ff7e3eb0d1dd1496c9f952b11e966c499ccbb9d1af1cfdba83e48378d48379",
+                "archiveRelativePath": "./CrunchBangplusplus/symbol.png"
             },
             "thumbnail":  {
-                "uri":  "./CrunchBangplusplus/thumbnail.png",
-                "hash":  "SHA256:3b5c12f183b238aca3759f53974dc004a779baabb241f62958f370cb405674d5"
+                "uri": "https://www.crunchbangplusplus.org/images/2023-06-11--1686519304_1056x800_scrot.png",
+                "hash": "SHA256:91ac3390c5cca3f5e180fab6f8cf4c74f614620a70abaa3db689ff8e39726f12",
+                "archiveRelativePath": "./CrunchBangplusplus/thumbnail.png"
             },
             "details": [
                 {
@@ -53,7 +55,7 @@
                 },
                 {
                     "name": "License",
-                    "value": "https://crunchbangplusplus.org/"
+                    "value": "https://crunchbangplusplus.org"
                 }
             ]
         },
@@ -66,7 +68,7 @@
             "description": [
                 "Imagen Live de Q4OS Andromeda (Plasma Desktop Edition)",
                 "\r\n\r\n",
-                "https://www.q4os.org/",
+                "https://www.q4os.org",
                 "\r\n\r\n"
             ],
             "config": {
@@ -95,7 +97,7 @@
             "details": [
                 {
                 "name": "Edition",
-                "value": "Q4OS Centaurus (Trinity)"
+                "value": "Q4OS Andromeda (Plasma)"
                 },
                 {
                 "name": "Copyright",
@@ -103,7 +105,7 @@
                 },
                 {
                 "name": "License",
-                "value": "https://www.q4os.org/"
+                "value": "https://www.q4os.org"
                 }
             ]
         },
@@ -145,7 +147,7 @@
             "details": [
                 {
                 "name": "Edition",
-                "value": "Q4OS Centaurus (Trinity)"
+                "value": "Q4OS Andromeda (Trinity)"
                 },
                 {
                 "name": "Copyright",
@@ -153,7 +155,7 @@
                 },
                 {
                 "name": "License",
-                "value": "https://www.q4os.org/"
+                "value": "https://www.q4os.org"
                 }
             ]
         }
