@@ -5,7 +5,7 @@
             "name":  "CrunchBangplusplus",
             "version": "CrunchBangplusplus 13.0 Trixie",
             "locale":  "en_US",
-            "publisher":  "https://crunchbangplusplus.org",
+            "publisher":  "CrunchBangplusplus Team",
             "lastUpdated":  "2026-04-19T08:40:00Z",
             "description":  [
                 "CrunchBang++ (o #!++) es una distribución de Linux basada en Debian, diseñada para ser extremadamente ligera, rápida y minimalista.",
@@ -67,7 +67,7 @@
             "name": "Q4OS Live",
             "version": "6.6 (Andromeda)",
             "locale": "en-US",
-            "publisher": "https://www.q4os.org/",
+            "publisher": "Q4OS Team",
             "lastUpdated": "2026-04-20T01:59:00Z",
             "description": [
                 "Q4OS es una distribución Linux de la familia de Sistemas Operativos GNU/Linux, ",
@@ -131,7 +131,7 @@
             "name": "Q4OS Trinity",
             "version": "6.6 (Andromeda)",
             "locale": "en-US",
-            "publisher": "https://www.q4os.org/",
+            "publisher": "Q4OS Team",
             "lastUpdated": "2026-04-20T01:59:00Z",
             "description": [
                 "Q4OS es una distribución Linux de la familia de Sistemas Operativos GNU/Linux, ",
@@ -194,7 +194,7 @@
             "name": "Oracle Linux",
             "version": "10.1",
             "locale": "en-US",
-            "publisher": "sirredbeard on GitHub",
+            "publisher": "Oracle",
             "lastUpdated": "2026-04-20T06:20:00Z",
             "description": [
                 "Las organizaciones necesitan soluciones de TI completas y seguras, no solo una nueva distribución de Linux. ",
@@ -252,7 +252,7 @@
             "name": "GhostBSD",
             "version": "26.01 R15.0p2",
             "locale": "en-US",
-            "publisher": "http://www.ghostbsd.org",
+            "publisher": "GhostBSD Project",
             "lastUpdated": "2026-04-20T06:53:00Z",
             "description": [
                 "GhostBSD es un sistema operativo similar a Unix basado en FreeBSD, ",
@@ -308,7 +308,7 @@
             "name": "Solus Budgie",
             "version": "4.9",
             "locale": "en-US",
-            "publisher": "https://getsol.us",
+            "publisher": "Solus Project",
             "lastUpdated": "2026-04-20T08:05:00Z",
             "description": [
                 "Solus ofrece multitud de experiencias que te permiten sacar el máximo partido a tu hardware.",
@@ -370,7 +370,7 @@
             "name": "Fedora Silverblue",
             "version": "43",
             "locale": "en-US",
-            "publisher": "https://fedoraproject.org/",
+            "publisher": "Fedora",
             "lastUpdated": "2026-04-20T09:05:00Z",
             "description": [
                 "Fedora Silverblue es una edición inmutable de Fedora que ofrece una base del sistema estable y resistente a fallos. ",
@@ -394,15 +394,18 @@
             },
             "logo": {
                 "uri": "https://us1.discourse-cdn.com/fedoraproject/original/2X/7/723f043c36ff90fa9df078eeb5ee796264a75d7d.png",
-                "hash": "sha256:479b8bf00a4eaf6355d71ada9d33d0aac86f37f73d1567d123ffc498bf486e01"
+                "hash": "sha256:479b8bf00a4eaf6355d71ada9d33d0aac86f37f73d1567d123ffc498bf486e01",
+                "archiveRelativePath": "./Fedora Silverblue/logo.png"
             },
             "symbol": {
                 "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Fedora Silverblue/symbol.png",
-                "hash": "sha256:ecfc8fc74e8801052c19fcb53e7ad11c4f61ce4fcb0db912d79228bdf837d06c"
+                "hash": "sha256:ecfc8fc74e8801052c19fcb53e7ad11c4f61ce4fcb0db912d79228bdf837d06c",
+                "archiveRelativePath": "./Fedora Silverblue/symbol.png"
             },
             "thumbnail": {
                 "uri": "https://us1.discourse-cdn.com/fedoraproject/original/3X/6/5/659a3fcde316cbbf866a0903ba79682a7ec37f26.png",
-                "hash": "sha256:01cbc4349c39dddc8fb88c9ed58ddc8a349c709d59de0485ff3d034564b8a4da"
+                "hash": "sha256:01cbc4349c39dddc8fb88c9ed58ddc8a349c709d59de0485ff3d034564b8a4da",
+                "archiveRelativePath": "./Fedora Silverblue/thumbnail.png"
             },
             "details": [
                 {
@@ -420,6 +423,66 @@
                 {
                     "name": "Requisitos",
                     "value": "2 GiB RAM, 8 GiB en disco"
+                }
+            ]
+        },
+        {
+            "name": "Devuan Excalibur",
+            "version": "6.1.0",
+            "locale": "en-US",
+            "publisher": "Devuan Project",
+            "lastUpdated": "2026-04-20T09:05:00Z",
+            "description": [
+                "Devuan es una distribución GNU/Linux derivada de Debian que se caracteriza por prescindir de systemd para mantener un sistema más simple y controlable. ",
+                "Ofrece alternativas de inicio como sysvinit u OpenRC, lo que favorece estabilidad y transparencia. ",
+                "Su enfoque está orientado a usuarios que buscan un entorno ligero, predecible y sin dependencias impuestas. ",
+                "Mantiene un fuerte compromiso con el software libre y con una filosofía de diseño clásica y minimalista.",
+                "\r\n\r\n",
+                "https://devuan.org",
+                "\r\n\r\n"
+            ],
+                "config": {
+                "secureBoot": "false"
+            },
+                "requirements": {
+                "diskSpace": "4509715660"
+            },
+            "disk": {
+            "uri": "https://files.devuan.org/devuan_excalibur/installer-iso/devuan_excalibur_6.1.0_amd64_desktop.iso",
+                "hash": "sha256:d4f59af3906e6de39073f2e0a07197b5a17ebc8eca8f1f980835f556b0d957e4",
+                "archiveRelativePath": "devuan_excalibur_6.1.0_amd64_desktop.iso"
+            },
+            "logo": {
+                "uri": "https://www.devuan.org/ui/img/devuan-logo.png",
+                "hash": "sha256:b0b5d6504e5d35ae72f9ca75d9e281cc33680ebe86d247dd58bf9ed4f362eca5",
+                "archiveRelativePath": "./Devuan/logo.png"
+            },
+            "symbol": {
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Devuan/symbol.png",
+                "hash": "sha256:A3C208836FBE944B1B2AB6C8674202849396F8F1D2E2000E8D2D001A6B7E4AC8",
+                "archiveRelativePath": "./Devuan/symbol.png"
+            },
+            "thumbnail": {
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Devuan/thumbnail.png",
+                "hash": "sha256:C9BE48D54E02F68BA36B0500C3DAC2103E02D571657E48FD4C43C31F62475DB2",
+                "archiveRelativePath": "./Devuan/thumbnail.png"
+            },
+            "details": [
+                {
+                    "name": "Edition",
+                    "value": "Excalibur"
+                },
+                {
+                    "name": "Copyright",
+                    "value": "Copyright (c) Devuan"
+                },
+                {
+                    "name": "Website",
+                    "value": "https://devuan.org"
+                },
+                {
+                    "name": "Requisitos",
+                    "value": "2 GiB RAM, 15 GiB en disco"
                 }
             ]
         }
