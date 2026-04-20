@@ -365,6 +365,60 @@
                     "value": "4 GiB RAM, 9,3 GiB en disco"
                 }
             ]
+        },
+        {
+            "name": "Fedora Silverblue",
+            "version": "43",
+            "locale": "en-US",
+            "publisher": "https://fedoraproject.org/",
+            "lastUpdated": "2026-04-20T09:05:00Z",
+            "description": [
+                "Install ISO for Fedora Team Silverblue",
+                "\r\n\r\n",
+                "https://silverblue.fedoraproject.org",
+                "\r\n\r\n"
+            ],
+            "config": {
+            "secureBoot": "false"
+            },
+            "requirements": {
+            "diskSpace": "28290580480"
+            },
+            "disk": {
+            "uri": "hhttps://download.fedoraproject.org/pub/fedora/linux/releases/43/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-43-1.6.iso",
+                "hash": "sha256:d0d84ba4a857faab545f0f5a42ecb239d565bd03518daf39fb3fe0608007cdaa",
+                "archiveRelativePath": "Fedora-Silverblue-ostree-x86_64-43-1.6.iso"
+            },
+            "logo": {
+                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/fedora-silverblue/logo.png",
+                "hash": "sha256:A51A5DA04FD0DBEB1ADA1261355D0B7D7BCC7A4CEB69E1BA97A601E6FAECDB60"
+            },
+            "symbol": {
+                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/fedora-silverblue/logo.png",
+                "hash": "sha256:A51A5DA04FD0DBEB1ADA1261355D0B7D7BCC7A4CEB69E1BA97A601E6FAECDB60"
+            },
+            "thumbnail": {
+                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/fedora-silverblue/thumbnail.png",
+                "hash": "sha256:A84A5FF0997BCD406837CB43749CDFFC55C1A8800E692D4F7DF7D0179A35BA9C"
+            },
+            "details": [
+                {
+                    "name": "Edición",
+                    "value": "Silverblue"
+                },
+                {
+                    "name": "Copyright",
+                    "value": "Copyright (c) Fedora Project"
+                },
+                {
+                    "name": "Website",
+                    "value": "https://silverblue.fedoraproject.org"
+                },
+                {
+                    "name": "Requisitos",
+                    "value": "4 GiB RAM, 9,3 GiB en disco"
+                }
+            ]
         }
     ]
 }
