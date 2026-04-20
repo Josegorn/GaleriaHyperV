@@ -485,6 +485,62 @@
                     "value": "2 GiB RAM, 15 GiB en disco"
                 }
             ]
+        },
+        {
+            "name": "Pop_OS!",
+            "version": "24.04 LTS",
+            "locale": "en-US",
+            "publisher": "System76",
+            "lastUpdated": "2026-04-20T10:05:00Z",
+            "description": [
+                "Pop!_OS está diseñado para eliminar obstáculos de tu plato. ",
+                "Las actualizaciones son rápidas y flexibles según tu horario, ",
+                "las aplicaciones y ventanas responden con rapidez a tus acciones, ",
+                "y el uso en múltiples monitores resulta intuitivo y fluido.",
+                "\r\n\r\n",
+                "https://system76.com/pop",
+                "\r\n\r\n"
+            ],
+            "config": {
+            "secureBoot": "false"
+            },
+            "requirements": {
+            "diskSpace": "3124588707"
+            },
+            "disk": {
+            "uri": "https://iso.pop-os.org/24.04/amd64/generic/23/pop-os_24.04_amd64_generic_23.iso",
+                "hash": "sha256:7eb7c1a21674d0bd7d51a95b159bea25df5f97da8f2f7cd32c58dfc17746f70d",
+                "archiveRelativePath": "pop-os_24.04_amd64_generic_23.iso"
+            },
+            "logo": {
+                "uri": "https://upload.wikimedia.org/wikipedia/commons/0/02/Pop_OS-Logo-nobg.png",
+                "hash": "sha256:2fbc3561e5694acd3edd18a0c65b158c680ca2779d7932a4b559119dd8ed2697",
+                "archiveRelativePath": "./Pop_OS/logo.png"
+            },
+            "symbol": {
+                "uri": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Pop%21_OS_Icon.svg/960px-Pop%21_OS_Icon.svg.png",
+                "hash": "sha256:1dbc936495b80dcd8263c5864b175dcb1d0303ecc74411e411455c42e4481d7b",
+                "archiveRelativePath": "./Pop_OS/symbol.png"
+            },
+            "thumbnail": {
+                "uri": "https://support.system76.com/_nuxt/image/2c7501.png",
+                "hash": "sha256:0ee6c82fdef9770999312b18afbd95aa2ff94114605fb4a9531bd041351b42b1",
+                "archiveRelativePath": "./Pop_OS/thumbnail.png"
+            },
+            "details": [
+                {
+                    "name": "Copyright",
+                    "value": "Copyright (c) System76"
+                },
+                {
+                    "name": "Website",
+                    "value": "https://system76.com"
+                },
+                {
+                    "name": "Requisitos",
+                    "value": "4 GiB RAM, 16 GiB en disco"
+                }
+            ]
         }
     ]
 }
