@@ -1,0 +1,161 @@
+{
+    "$schema": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/refs/heads/live/hyperv-tools/vmgallery/vm-gallery-schema.json",
+
+    "images": [
+        {
+            "name":  "CrunchBangplusplus",
+            "version": "CrunchBangplusplus 13.0 Trixie",
+            "locale":  "en_US",
+            "publisher":  "Local",
+            "lastUpdated":  "2026-04-19T08:40:35Z",
+            "description":  [
+                "CrunchBang++ (o #!++) es una distribución de Linux basada en Debian, diseñada para ser extremadamente ligera, rápida y minimalista.",
+                "\r\n",
+                "Utiliza el gestor de ventanas Openbox, ofreciendo un entorno de trabajo eficiente y altamente personalizable que consume recursos mínimos.",
+                "\r\n",
+                "Es considerada la continuación comunitaria del proyecto original CrunchBang, ideal para revitalizar equipos con hardware antiguo.",
+                "\r\n"
+            ],
+            "config":
+            {
+                "secureBoot": "false"
+            },
+            "requirements":  
+            {
+                "diskSpace": "28290580480" 
+            },
+            "disk":  {
+                "uri":  "Https://www.kimikaze.es/ISOs/cbpp-13.0-amd64-20250819.iso",
+                "hash":  "SHA256:222dfb458bc6655ab0f819160d89a92de1d179d2f49e3a516a2c253dc4b5c6b3",
+                "archiveRelativePath": "./CrunchBangplusplus/cbpp-13.0-amd64-20250819.iso"
+                
+            },
+            "logo":  {
+                "uri":  "./CrunchBangplusplus./logo.png",
+                "hash":  "SHA256:c6ff7e3eb0d1dd1496c9f952b11e966c499ccbb9d1af1cfdba83e48378d48379"
+            },
+            "symbol":  {
+                "uri": "./CrunchBangplusplus./logo.png",
+                "hash": "SHA256:c6ff7e3eb0d1dd1496c9f952b11e966c499ccbb9d1af1cfdba83e48378d48379"
+            },
+            "thumbnail":  {
+                "uri":  "./CrunchBangplusplus/thumbnail.png",
+                "hash":  "SHA256:3b5c12f183b238aca3759f53974dc004a779baabb241f62958f370cb405674d5"
+            },
+            "details": [
+                {
+                    "name": "Edition",
+                    "value": "Debian 10"
+                },
+                {
+                    "name": "Copyright",
+                    "value": "Copyright (c) Crunchbangplusplus"
+                },
+                {
+                    "name": "License",
+                    "value": "https://crunchbangplusplus.org/"
+                }
+            ]
+        },
+        {
+            "name": "Q4OS",
+            "version": "Q4OS Andromeda (Plasma)",
+            "locale": "en-US",
+            "publisher": "https://www.q4os.org/",
+            "lastUpdated": "2026-04-20T01:59:59Z",
+            "description": [
+                "Imagen Live de Q4OS Andromeda (Plasma Desktop Edition)",
+                "\r\n\r\n",
+                "https://www.q4os.org/",
+                "\r\n\r\n"
+            ],
+            "config": {
+                "secureBoot": "false"
+            },
+            "requirements": {
+                "diskSpace": "8388608"
+            },
+            "disk": {
+                "uri": "https://unlimited.dl.sourceforge.net/project/q4os/stable/q4os-6.6-x64.r1.iso",
+                "hash": "md5:92ee74e3c448c1f95cb8f5c49858e6a0",
+                "archiveRelativePath": "q4os-6.6-x64.r1.iso"
+            },
+            "logo": {
+                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/logo.jpg",
+                "hash": "sha256:22D01B82AE1B1178906825DF1368F88FCCB608D65AA4375C2C2E1461272648B3"
+            },
+            "symbol": {
+                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/logo.jpg",
+                "hash": "sha256:22D01B82AE1B1178906825DF1368F88FCCB608D65AA4375C2C2E1461272648B3"
+            },
+            "thumbnail": {
+                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/thumbnail.jpg",
+                "hash": "sha256:5CDCDB180C28690467C45BCE08494CC3C50B4D33E03256A6721D945FD06B2641"
+            },
+            "details": [
+                {
+                "name": "Edition",
+                "value": "Q4OS Centaurus (Trinity)"
+                },
+                {
+                "name": "Copyright",
+                "value": "Copyright (c) Q4OS"
+                },
+                {
+                "name": "License",
+                "value": "https://www.q4os.org/"
+                }
+            ]
+        },
+        {
+            "name": "Q4OS",
+            "version": "Q4OS Andromeda (Trinity)",
+            "locale": "en-US",
+            "publisher": "https://www.q4os.org/",
+            "lastUpdated": "2026-04-20T01:59:59Z",
+            "description": [
+                "Instalación de Q4OS Andromeda (Trinity Desktop Edition)",
+                "\r\n\r\n",
+                "https://www.q4os.org/",
+                "\r\n\r\n"
+            ],
+            "config": {
+                "secureBoot": "false"
+            },
+            "requirements": {
+                "diskSpace": "6291456"
+            },
+            "disk": {
+                "uri": "https://unlimited.dl.sourceforge.net/project/q4os/stable/q4os-6.6-x64-instcd.r1.iso",
+                "hash": "md5:c838daaaa3ab0a6fa536f470cbca8af8d",
+                "archiveRelativePath": "q4os-6.6-x64-instcd.r1.iso"
+            },
+            "logo": {
+                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/logo.jpg",
+                "hash": "sha256:22D01B82AE1B1178906825DF1368F88FCCB608D65AA4375C2C2E1461272648B3"
+            },
+            "symbol": {
+                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/logo.jpg",
+                "hash": "sha256:22D01B82AE1B1178906825DF1368F88FCCB608D65AA4375C2C2E1461272648B3"
+            },
+            "thumbnail": {
+                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/thumbnail.jpg",
+                "hash": "sha256:5CDCDB180C28690467C45BCE08494CC3C50B4D33E03256A6721D945FD06B2641"
+            },
+            "details": [
+                {
+                "name": "Edition",
+                "value": "Q4OS Centaurus (Trinity)"
+                },
+                {
+                "name": "Copyright",
+                "value": "Copyright (c) Q4OS"
+                },
+                {
+                "name": "License",
+                "value": "https://www.q4os.org/"
+                }
+            ]
+        }
+    ]
+}
