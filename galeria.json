@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/refs/heads/live/hyperv-tools/vmgallery/vm-gallery-schema.json",
     "images": [
         {
-            "name":  "Ubuntu 24.04.4 LTS Desktop",
+            "name":  "Ubuntu 24.04 LTS Desktop",
             "version": "24.04.4 LTS",
             "publisher":  "Canonical",
             "lastUpdated":  "2026-04-20T11:45:00Z",
@@ -57,6 +57,64 @@
                 {
                     "name": "Requisitos",
                     "value": "2 GiB RAM, 25 GiB en disco"
+                }
+            ]
+        },
+        {
+            "name":  "Ubuntu 24.04 LTS Server",
+            "version": "24.04.4 LTS",
+            "publisher":  "Canonical",
+            "lastUpdated":  "2026-04-20T12:15:00Z",
+            "description":  [
+                "Ubuntu Server es una versión de Ubuntu diseñada para servidores. Es una distribución de Linux basada en Debian, ",
+                "optimizada para entornos de servidor. ",
+                "\r\n"
+            ],
+            "config":
+            {
+                "secureBoot": "false"
+            },
+            "requirements":  
+            {
+                "diskSpace": "3303444480" 
+            },
+            "disk":  {
+                "uri":  "https://releases.ubuntu.com/24.04.4/ubuntu-24.04.4-live-server-amd64.iso",
+                "hash":  "SHA256:e907d92eeec9df64163a7e454cbc8d7755e8ddc7ed42f99dbc80c40f1a138433",
+                "archiveRelativePath": "ubuntu-24.04.4-live-server-amd64.iso"
+                
+            },
+            "logo":  {
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Ubuntu/logo.png",
+                "hash":  "SHA256:442b25878639c4c10f5ccc5d1fd57a2fa0c8267a69cd5d4fd5398500de39088c",
+                "archiveRelativePath":  "./Ubuntu/logo.png"
+            },
+            "symbol":  {
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Ubuntu/symbol.png",
+                "hash": "SHA256:d23b69c85ad351f43a30097faa7be2377998e7d53c183d4997ea679eeb5fe9ea",
+                "archiveRelativePath": "./Ubuntu/symbol.png"
+            },
+            "thumbnail":  {
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Ubuntu/thumbnail2.png",
+                "hash": "SHA256:3f2106c5dcfbca17ca567cc8eebe3ec852dd41dd5f1b230b8e63b5f4f5088d3a",
+                "archiveRelativePath": "./Ubuntu/thumbnail2.png"
+            },
+            "details": [
+                {
+                    "name": "Edición",
+                    "value": "Server"
+                },
+                {
+                    "name": "Copyright",
+                    "value": "Copyright (c) Canonical"
+                },
+                {
+                    "name": "Website",
+                    "value": "https://ubuntu.com"
+                },
+                {
+                    "name": "Requisitos",
+                    "value": "1 GiB RAM, 5 GiB en disco"
                 }
             ]
         },        
