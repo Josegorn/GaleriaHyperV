@@ -70,7 +70,14 @@
             "publisher": "https://www.q4os.org/",
             "lastUpdated": "2026-04-20T01:59:00Z",
             "description": [
-                "Imagen Live de Q4OS Andromeda (Plasma Desktop Edition)",
+                "Q4OS es una distribución Linux de la familia de Sistemas Operativos GNU/Linux, ",
+                "de origen alemán, basada en Debian y orientada hacia el escritorio.",
+                "\r\n\r\n",
+                "Es sistema operativo de escritorio ligero y fácil de usar, ",
+                "construido sobre la sólida base de Debian Linux. Es rápido de configurar, ",
+                "fácil de usar y funciona perfectamente incluso en hardware menos potente. ",
+                "Abierto y gratuito para todos. Tanto si eres nuevo en Linux como si eres un experto, ",
+                "Q4OS es una opción fiable y lista para usar.",
                 "\r\n\r\n",
                 "https://www.q4os.org",
                 "\r\n\r\n"
@@ -127,7 +134,13 @@
             "publisher": "https://www.q4os.org/",
             "lastUpdated": "2026-04-20T01:59:00Z",
             "description": [
-                "Instalación de Q4OS Andromeda (Trinity Desktop Edition)",
+                "Q4OS es una distribución Linux de la familia de Sistemas Operativos GNU/Linux, ",
+                "de origen alemán, basada en Debian y orientada hacia el escritorio.",
+                "\r\n",
+                "La edición Trinity es ligera, rápida y eficiente, en muchos aspectos supera a la competencia. ",
+                "En nuestra opinión, es un entorno de escritorio muy infravalorado. ",
+                "Las distribuciones Linux convencionales no soportan Trinity en absoluto, ",
+                "pero como a nosotros nos encanta, es incluso una de las opciones principales para descargar.",
                 "\r\n\r\n",
                 "https://www.q4os.org/",
                 "\r\n\r\n"
@@ -184,7 +197,12 @@
             "publisher": "sirredbeard on GitHub",
             "lastUpdated": "2026-04-20T06:20:00Z",
             "description": [
-                "Full DVD of Oracle Linux 10.1",
+                "Las organizaciones necesitan soluciones de TI completas y seguras, no solo una nueva distribución de Linux. ",
+                "Oracle solo ofrece Linux con todo lo necesario para desplegar, optimizar y gestionar aplicaciones de forma local, ",
+                "en la nube y en el perímetro. Es más seguro y más fácil de administrar, ",
+                "y está optimizado para cargas de trabajo exigentes a escala de la nube. ",
+                "Una única suscripción a Premier Support ofrece automatización, virtualización, ",
+                "gestión, alta disponibilidad, herramientas nativas en la nube, Kubernetes y mucho más.",
                 "\r\n\r\n",
                 "https://www.oracle.com/linux",
                 "\r\n\r\n"
@@ -237,7 +255,10 @@
             "publisher": "http://www.ghostbsd.org",
             "lastUpdated": "2026-04-20T06:53:00Z",
             "description": [
-                "Imagen Live de GhostBSD 26.01",
+                "GhostBSD es un sistema operativo similar a Unix basado en FreeBSD, ",
+                "que puede ser ejecutado tanto como un Live CD, como localmente, ",
+                "instalado en la computadora. Posee como entorno de escritorio a MATE o Xfce. ",
+                "Su objetivo es ser fácil de instalar, listo para usar y fácil de usar.",
                 "\r\n\r\n",
                 "http://www.ghostbsd.org",
                 "\r\n\r\n"
@@ -339,7 +360,7 @@
                     "name": "Website",
                     "value": "https://getsol.us"
                 },
-                                {
+                {
                     "name": "Requisitos",
                     "value": "4 GiB RAM, 9,3 GiB en disco"
                 }
