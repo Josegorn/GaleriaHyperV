@@ -21,7 +21,7 @@
             },
             "requirements":  
             {
-                "diskSpace": "28290580480" 
+                "diskSpace": "2475753472" 
             },
             "disk":  {
                 "uri":  "Https://www.kimikaze.es/ISOs/cbpp-13.0-amd64-20250819.iso",
@@ -75,7 +75,7 @@
                 "secureBoot": "false"
             },
             "requirements": {
-                "diskSpace": "8388608"
+                "diskSpace": "1868562432"
             },
             "disk": {
                 "uri": "https://unlimited.dl.sourceforge.net/project/q4os/stable/q4os-6.6-x64.r1.iso",
@@ -128,7 +128,7 @@
                 "secureBoot": "false"
             },
             "requirements": {
-                "diskSpace": "6291456"
+                "diskSpace": "1121976320"
             },
             "disk": {
                 "uri": "https://unlimited.dl.sourceforge.net/project/q4os/stable/q4os-6.6-x64-instcd.r1.iso",
@@ -162,6 +162,59 @@
                 {
                     "name": "License",
                     "value": "https://www.q4os.org"
+                }
+            ]
+        },
+        {
+            "name": "Oracle Linux",
+            "version": "10.1",
+            "locale": "en-US",
+            "publisher": "sirredbeard on GitHub",
+            "lastUpdated": "2026-04-20T06:20:59Z",
+            "description": [
+                "Full DVD of Oracle Linux 10.1",
+                "\r\n\r\n",
+                "https://www.oracle.com/linux",
+                "\r\n\r\n"
+            ],
+            "config": {
+                "secureBoot": "false"
+            },
+            "requirements": {
+                "diskSpace": "10250971136"
+            },
+            "disk": {
+                "uri": "https://yum.oracle.com/ISOS/OracleLinux/OL10/u1/x86_64/OracleLinux-R10-U1-x86_64-dvd.iso",
+                "hash": "sha256:82fa2b70a18fb268c5ef013e298f85bba0d0e6c7ae882c49a3f67c02ee6d68de",
+                "archiveRelativePath": "OracleLinux-R10-U1-x86_64-dvd.iso"
+            },
+            "logo": {
+                "uri": "https://linux.oracle.com/i/basecamp/Oracle_Linux_rgb_180x79.png",
+                "hash": "sha256:81ff748b57f6cda871aa25d8413ee2313be81c3f9ad703569dd97759ddcf23a2",
+                "archiveRelativePath": "./Oracle Linux/logo.png"
+            },
+            "symbol": {
+                "uri": "https://e7.pngegg.com/pngimages/830/981/png-clipart-oracle-linux-oracle-corporation-virtualbox-linux-distribution-linux-vertebrate-bird-thumbnail.png",
+                "hash": "sha256:3519b0043268fb3aef49f22a2c2e6f5d7c5a8f842ee7d0625b21fde74030cc04",
+                "archiveRelativePath": "./Oracle Linux/symbol.png"
+            },
+            "thumbnail": {
+                "uri": "https://oracle-base.com/articles/linux/images/ol10/15-network-devices-ipv4.jpg",
+                "hash": "sha256:c9376bc7f31c96576ba2d9a22df48cca7200006043bddda2af4ceaa328507f49",
+                "archiveRelativePath": "./Oracle Linux/thumbnail.jpg"
+            },
+            "details": [
+                {
+                    "name": "Edition",
+                    "value": "10.1"
+                },
+                {
+                    "name": "Copyright",
+                    "value": "Copyright (c) Oracle"
+                },
+                {
+                    "name": "License",
+                    "value": "https://www.oracle.com/linux"
                 }
             ]
         }
