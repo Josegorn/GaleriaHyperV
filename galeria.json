@@ -259,15 +259,18 @@
             },
             "logo": {
                 "uri": "https://www.ghostbsd.org/sites/default/files/ghostbsd.png",
-                "hash": "sha256:e72299499db450f3627bf7ef45b2ed32a15da4c33dae0488427e1040ee49d8ef"
+                "hash": "sha256:e72299499db450f3627bf7ef45b2ed32a15da4c33dae0488427e1040ee49d8ef",
+                "archiveRelativePath": "./GhostBSD/logo.png"
             },
             "symbol": {
-                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/ghostbsd/logo.jpg",
-                "hash": "sha256:6E9D1F8AC4F20592C77F68BF90B32E2E9535D8E877A9400AC40AB988CDCBBB87"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/GhostBSD/symbol.png",
+                "hash": "sha256:848872a29784c85de7a8878c4e511c8242b76ef2ec8d5ac85694e4734fe1c90b",
+                "archiveRelativePath": "./GhostBSD/symbol.png"
             },
             "thumbnail": {
                 "uri": "https://www.ghostbsd.org/sites/default/files/field/image/Screenshot%20at%202023-06-04%2019-27-04.png",
-                "hash": "sha256:1bf7bd6a206419e24935890297366c79274aa97394d06574cabac1ca06e60a58"
+                "hash": "sha256:1bf7bd6a206419e24935890297366c79274aa97394d06574cabac1ca06e60a58",
+                "archiveRelativePath": "./GhostBSD/thumbnail.png"
             },
             "details": [
                 {
@@ -284,7 +287,7 @@
                 },
                 {
                     "name": "Requisitos",
-                    "value": "8 GiB RAM, 15G iB en disco"
+                    "value": "8 GiB RAM, 15 GiB en disco"
                 }
             ]
         }
