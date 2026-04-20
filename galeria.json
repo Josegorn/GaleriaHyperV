@@ -290,7 +290,12 @@
             "publisher": "https://getsol.us",
             "lastUpdated": "2026-04-20T08:05:00Z",
             "description": [
-                "Imagen Live de Solus Budgie",
+                "Solus ofrece multitud de experiencias que te permiten sacar el máximo partido a tu hardware.",
+                "Ofrecemos una experiencia con Budgie para dispositivos modernos, ",
+                "hasta la experiencia más tradicional Xfce para dispositivos de gama baja, ",
+                "Solus pretende dar la mejor experiencia para tu dispositivo.\r\n",
+                "Nuestra distribución viene con una variedad de software de fábrica para que puedas empezar sin muchos complicaciones de configuración. ",
+                "Menos configuración significa que puedes empezar a usar el ordenador más rápido.",
                 "\r\n\r\n",
                 "https://getsol.us",
                 "\r\n\r\n"
@@ -317,9 +322,9 @@
                 "archiveRelativePath": "./Solus/symbol.png"
             },
             "thumbnail": {
-                "uri": "https://getsol.us/imgs/laptop-image.webp",
-                "hash": "sha256:9999205a703a18550d2e0cbbb2f2a0b888e01b25defb608369328101c17d37e8",
-                "archiveRelativePath": "./Solus/thumbnail.webp"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Solus/thumbnail.png",
+                "hash": "sha256:25245bf0298216dbc4b2b78337b49780febd81396627b3be985062e5e349a4be",
+                "archiveRelativePath": "./Solus/thumbnail.png"
             },
             "details": [
                 {
