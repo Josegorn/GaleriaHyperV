@@ -47,7 +47,7 @@
             "details": [
                 {
                     "name": "Edition",
-                    "value": "Debian 10"
+                    "value": "Trixie (Debian 10)"
                 },
                 {
                     "name": "Copyright",
@@ -61,7 +61,7 @@
         },
         {
             "name": "Q4OS",
-            "version": "Q4OS Andromeda (Plasma)",
+            "version": "6.6 (Andromeda)",
             "locale": "en-US",
             "publisher": "https://www.q4os.org/",
             "lastUpdated": "2026-04-20T01:59:59Z",
@@ -83,16 +83,19 @@
                 "archiveRelativePath": "q4os-6.6-x64.r1.iso"
             },
             "logo": {
-                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/logo.jpg",
-                "hash": "sha256:22D01B82AE1B1178906825DF1368F88FCCB608D65AA4375C2C2E1461272648B3"
+                "uri": "https://www.q4os.org/style/banner.jpg",
+                "hash": "sha256:7720c5c1d342dd6f2ce186a81b29776e61adc16f7059ae40579a02751ed9c527",
+                "archiveRelativePath": "./Q4OS/logo.jpg"
             },
             "symbol": {
-                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/logo.jpg",
-                "hash": "sha256:22D01B82AE1B1178906825DF1368F88FCCB608D65AA4375C2C2E1461272648B3"
+                "uri": "https://www.q4os.org/style/favicon.png",
+                "hash": "sha256:ff4531a96f96e5914fe1135c377fbe0cf0f39c256adb57d12409caae0a918382",
+                "archiveRelativePath": "./Q4OS/favicon.png"
             },
             "thumbnail": {
-                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/thumbnail.jpg",
-                "hash": "sha256:5CDCDB180C28690467C45BCE08494CC3C50B4D33E03256A6721D945FD06B2641"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Q4OS/thumbnail-plasma.jpg",
+                "hash": "sha256:f7ecc619dca5f8ce8cbad7892b7c033450b5ab34811106daad282dfdafd73bb9",
+                "archiveRelativePath": "./Q4OS/thumbnail-plasma.jpg"
             },
             "details": [
                 {
@@ -111,7 +114,7 @@
         },
         {
             "name": "Q4OS",
-            "version": "Q4OS Andromeda (Trinity)",
+            "version": "6.6 (Andromeda)",
             "locale": "en-US",
             "publisher": "https://www.q4os.org/",
             "lastUpdated": "2026-04-20T01:59:59Z",
