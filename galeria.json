@@ -2,17 +2,14 @@
     "$schema": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/refs/heads/live/hyperv-tools/vmgallery/vm-gallery-schema.json",
     "images": [
         {
-            "name":  "Ubuntu Desktop",
+            "name":  "Ubuntu 24.04.4 LTS Desktop",
             "version": "24.04.4 LTS",
-            "locale":  "en_US",
             "publisher":  "Canonical",
             "lastUpdated":  "2026-04-20T11:45:00Z",
             "description":  [
-                "CrunchBang++ (o #!++) es una distribución de Linux basada en Debian, diseñada para ser extremadamente ligera, rápida y minimalista.",
-                "\r\n",
-                "Utiliza el gestor de ventanas Openbox, ofreciendo un entorno de trabajo eficiente y altamente personalizable que consume recursos mínimos.",
-                "\r\n",
-                "Es considerada la continuación comunitaria del proyecto original CrunchBang, ideal para revitalizar equipos con hardware antiguo.",
+                "El sistema operativo de escritorio de código abierto que alimenta millones de PCs y portátiles en todo el mundo. ",
+                "Ubuntu viene con todo lo que necesita para encontrar su flujo de trabajo, ya sea que esté aquí por el trabajo, ",
+                "el entretenimiento o la creación.",
                 "\r\n"
             ],
             "config":
@@ -21,52 +18,51 @@
             },
             "requirements":  
             {
-                "diskSpace": "8176568320" 
+                "diskSpace": "6335076761" 
             },
             "disk":  {
-                "uri":  "Https://www.kimikaze.es/ISOs/cbpp-13.0-amd64-20250819.iso",
-                "hash":  "SHA256:222dfb458bc6655ab0f819160d89a92de1d179d2f49e3a516a2c253dc4b5c6b3",
-                "archiveRelativePath": "./CrunchBangplusplus/cbpp-13.0-amd64-20250819.iso"
+                "uri":  "https://ftp.caliu.cat/pub/distribucions/ubuntu/releases/24.04.4/ubuntu-24.04.4-desktop-amd64.iso",
+                "hash":  "SHA256:3a4c9877b483ab46d7c3fbe165a0db275e1ae3cfe56a5657e5a47c2f99a99d1e",
+                "archiveRelativePath": "ubuntu-24.04.4-desktop-amd64.iso"
                 
             },
             "logo":  {
-                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/CrunchBangplusplus/logo.png",
-                "hash":  "SHA256:21d86b6dcfb020ba83002914b81cb4454d67773235ff9875ae0a8011e6ec4ab7",
-                "archiveRelativePath":  "./CrunchBangplusplus/logo.png"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Ubuntu/logo.png",
+                "hash":  "SHA256:442b25878639c4c10f5ccc5d1fd57a2fa0c8267a69cd5d4fd5398500de39088c",
+                "archiveRelativePath":  "./Ubuntu/logo.png"
             },
             "symbol":  {
-                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/CrunchBangplusplus/symbol.png",
-                "hash": "SHA256:da27302013c063ea31bbc42322979e4b759778f8be5acd67735167f4153e2b27",
-                "archiveRelativePath": "./CrunchBangplusplus/symbol.png"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Ubuntu/symbol.png",
+                "hash": "SHA256:d23b69c85ad351f43a30097faa7be2377998e7d53c183d4997ea679eeb5fe9ea",
+                "archiveRelativePath": "./Ubuntu/symbol.png"
             },
             "thumbnail":  {
-                "uri": "https://www.crunchbangplusplus.org/images/2023-06-11--1686519304_1056x800_scrot.png",
-                "hash": "SHA256:3b5c12f183b238aca3759f53974dc004a779baabb241f62958f370cb405674d5",
-                "archiveRelativePath": "./CrunchBangplusplus/thumbnail.png"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Ubuntu/thumbnail.png",
+                "hash": "SHA256:1f82c6ec5748b16f156d5f225bdbbe8135edea962ceac4aaa3541daabcafaf6f",
+                "archiveRelativePath": "./Ubuntu/thumbnail.png"
             },
             "details": [
                 {
                     "name": "Edición",
-                    "value": "Trixie (Debian 10)"
+                    "value": "Desktop"
                 },
                 {
                     "name": "Copyright",
-                    "value": "Copyright (c) Crunchbangplusplus"
+                    "value": "Copyright (c) Canonical"
                 },
                 {
                     "name": "Website",
-                    "value": "https://crunchbangplusplus.org"
+                    "value": "https://ubuntu.com"
                 },
                 {
                     "name": "Requisitos",
-                    "value": "256 MiB RAM, 10 GiB en disco"
+                    "value": "2 GiB RAM, 25 GiB en disco"
                 }
             ]
         },        
         {
             "name":  "CrunchBangplusplus",
             "version": "13.0 (Trixie)",
-            "locale":  "en_US",
             "publisher":  "CrunchBangplusplus Team",
             "lastUpdated":  "2026-04-19T08:40:00Z",
             "description":  [
@@ -86,9 +82,9 @@
                 "diskSpace": "2475753472" 
             },
             "disk":  {
-                "uri":  "Https://www.kimikaze.es/ISOs/cbpp-13.0-amd64-20250819.iso",
+                "uri":  "https://www.kimikaze.es/ISOs/cbpp-13.0-amd64-20250819.iso",
                 "hash":  "SHA256:222dfb458bc6655ab0f819160d89a92de1d179d2f49e3a516a2c253dc4b5c6b3",
-                "archiveRelativePath": "./CrunchBangplusplus/cbpp-13.0-amd64-20250819.iso"
+                "archiveRelativePath": "CrunchBangplusplus/cbpp-13.0-amd64-20250819.iso"
                 
             },
             "logo":  {
@@ -128,7 +124,6 @@
         {
             "name": "Q4OS Live",
             "version": "6.6 (Andromeda)",
-            "locale": "en-US",
             "publisher": "Q4OS Team",
             "lastUpdated": "2026-04-20T01:59:00Z",
             "description": [
@@ -192,7 +187,6 @@
         {
             "name": "Q4OS Trinity",
             "version": "6.6 (Andromeda)",
-            "locale": "en-US",
             "publisher": "Q4OS Team",
             "lastUpdated": "2026-04-20T01:59:00Z",
             "description": [
@@ -255,7 +249,6 @@
         {
             "name": "Oracle Linux",
             "version": "10.1",
-            "locale": "en-US",
             "publisher": "Oracle",
             "lastUpdated": "2026-04-20T06:20:00Z",
             "description": [
@@ -313,7 +306,6 @@
         {
             "name": "GhostBSD",
             "version": "26.01 R15.0p2",
-            "locale": "en-US",
             "publisher": "GhostBSD Project",
             "lastUpdated": "2026-04-20T06:53:00Z",
             "description": [
@@ -369,7 +361,6 @@
         {
             "name": "Solus Budgie",
             "version": "4.9",
-            "locale": "en-US",
             "publisher": "Solus Project",
             "lastUpdated": "2026-04-20T08:05:00Z",
             "description": [
@@ -431,7 +422,6 @@
         {
             "name": "Fedora Silverblue",
             "version": "43",
-            "locale": "en-US",
             "publisher": "Fedora",
             "lastUpdated": "2026-04-20T09:05:00Z",
             "description": [
@@ -491,7 +481,6 @@
         {
             "name": "Devuan Excalibur",
             "version": "6.1.0",
-            "locale": "en-US",
             "publisher": "Devuan Project",
             "lastUpdated": "2026-04-20T09:05:00Z",
             "description": [
@@ -551,7 +540,6 @@
         {
             "name": "Pop_OS!",
             "version": "24.04 LTS",
-            "locale": "en-US",
             "publisher": "System76",
             "lastUpdated": "2026-04-20T10:05:00Z",
             "description": [
@@ -607,7 +595,6 @@
         {
             "name": "Arch Linux",
             "version": "2026.04.01",
-            "locale": "en-US",
             "publisher": "Arch Linux Project",
             "lastUpdated": "2026-04-20T10:30:00Z",
             "description": [
@@ -663,7 +650,6 @@
         {
             "name": "Qubes OS",
             "version": "4.3.0",
-            //"locale": "en-US",
             "publisher": "Qubes OS Project",
             "lastUpdated": "2026-04-20T11:00:00Z",
             "description": [
