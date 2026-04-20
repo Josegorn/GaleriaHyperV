@@ -264,10 +264,10 @@
                 "\r\n\r\n"
             ],
             "config": {
-            "secureBoot": "false"
+                "secureBoot": "false"
             },
             "requirements": {
-            "diskSpace": "28290580480"
+                "diskSpace": "28290580480"
             },
             "disk": {
             "uri": "https://download.ghostbsd.org/releases/amd64/26.1-R15.0p2/GhostBSD-26.1-R15.0p2.iso",
@@ -321,10 +321,10 @@
                 "https://getsol.us",
                 "\r\n\r\n"
             ],
-                "config": {
+            "config": {
                 "secureBoot": "false"
             },
-                "requirements": {
+            "requirements": {
                 "diskSpace": "4402341478"
             },
             "disk": {
@@ -382,10 +382,10 @@
                 "\r\n\r\n"
             ],
             "config": {
-            "secureBoot": "false"
+                "secureBoot": "false"
             },
             "requirements": {
-            "diskSpace": "3175817216"
+                "diskSpace": "3175817216"
             },
             "disk": {
             "uri": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Silverblue/x86_64/iso/Fedora-Silverblue-ostree-x86_64-43-1.6.iso",
@@ -441,10 +441,10 @@
                 "https://devuan.org",
                 "\r\n\r\n"
             ],
-                "config": {
+            "config": {
                 "secureBoot": "false"
             },
-                "requirements": {
+            "requirements": {
                 "diskSpace": "4509715660"
             },
             "disk": {
@@ -502,10 +502,10 @@
                 "\r\n\r\n"
             ],
             "config": {
-            "secureBoot": "false"
+                "secureBoot": "false"
             },
             "requirements": {
-            "diskSpace": "3124588707"
+                "diskSpace": "3124588707"
             },
             "disk": {
             "uri": "https://iso.pop-os.org/24.04/amd64/generic/23/pop-os_24.04_amd64_generic_23.iso",
@@ -513,12 +513,12 @@
                 "archiveRelativePath": "pop-os_24.04_amd64_generic_23.iso"
             },
             "logo": {
-                "uri": "https://upload.wikimedia.org/wikipedia/commons/0/02/Pop_OS-Logo-nobg.png",
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Pop_OS/logo.png",
                 "hash": "sha256:2fbc3561e5694acd3edd18a0c65b158c680ca2779d7932a4b559119dd8ed2697",
                 "archiveRelativePath": "./Pop_OS/logo.png"
             },
             "symbol": {
-                "uri": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Pop%21_OS_Icon.svg/960px-Pop%21_OS_Icon.svg.png",
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Pop_OS/symbol.png",
                 "hash": "sha256:1dbc936495b80dcd8263c5864b175dcb1d0303ecc74411e411455c42e4481d7b",
                 "archiveRelativePath": "./Pop_OS/symbol.png"
             },
@@ -539,6 +539,62 @@
                 {
                     "name": "Requisitos",
                     "value": "4 GiB RAM, 16 GiB en disco"
+                }
+            ]
+        },
+        {
+            "name": "Arch Linux",
+            "version": "2026.04.01",
+            "locale": "en-US",
+            "publisher": "Arch Linux Project",
+            "lastUpdated": "2026-04-20T10:30:00Z",
+            "description": [
+                "Arch Linux es una distribución ligera y altamente personalizable que sigue la filosofía KISS, ",
+                "ofreciendo solo lo esencial para que el usuario construya su sistema a medida. Utiliza un modelo de actualización continua que mantiene el software siempre al día. ",
+                "Su instalación y mantenimiento requieren conocimientos técnicos, lo que la orienta a usuarios que buscan control total. ",
+                "La documentación del Arch Wiki es uno de sus mayores puntos fuertes y referencia para toda la comunidad Linux.",
+                "\r\n\r\n",
+                "https://www.archlinux.org",
+                "\r\n\r\n"
+            ],
+            "config": {
+                "secureBoot": "false"
+            },
+            "requirements": {
+                "diskSpace": "1503238553"
+            },
+            "disk": {
+                "uri": "https://ftp.rediris.es/mirror/archlinux/iso/2026.04.01/archlinux-2026.04.01-x86_64.iso",
+                "hash": "sha256:f14bf46afbe782d28835aed99bfa2fe447903872cb9f4b21153196d6ed1d48ae",
+                "archiveRelativePath": "archlinux-2026.04.01-x86_64.iso"
+            },
+            "logo": {
+                "uri": "https://archlinux.org/static/logos/archlinux-logo-dark-1200dpi.png",
+                "hash": "sha256:2bbc3255007f4333430d8fdcc52919c0802698bea92401c53c89f5b71fa10c35",
+                "archiveRelativePath": "./Arch Linux/logo.png"
+            },
+            "symbol": {
+                "uri": "https://wiki.sugarlabs.org/images/f/f9/Arch-linux-logo.png",
+                "hash": "sha256:cf9e26085eae41533781e66ea84677f9e8158dedfbfaf9450ed1b4760496d66a",
+                "archiveRelativePath": "./Arch Linux/symbol.png"
+            },
+            "thumbnail": {
+                "uri": "https://www.arcolinuxd.com/wp-content/uploads/2025/02/arch-to-arco-1080x675.jpg",
+                "hash": "sha256:36d8300f51876558646858dc4e065aa3aa66f07a35f7b22fe2cd1afe41bce9f9",
+                "archiveRelativePath": "./Arch Linux/thumbnail.jpg"
+            },
+            "details": [
+                {
+                    "name": "Copyright",
+                    "value": "Copyright (c) Arch"
+                },
+                {
+                    "name": "Website",
+                    "value": "https://www.archlinux.org/"
+                },
+                {
+                    "name": "Requisitos",
+                    "value": "512 MiB RAM, 2 GiB en disco"
                 }
             ]
         }
