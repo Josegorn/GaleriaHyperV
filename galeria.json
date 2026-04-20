@@ -31,12 +31,12 @@
             },
             "logo":  {
                 "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/CrunchBangplusplus/logo.png",
-                "hash":  "SHA256:c6ff7e3eb0d1dd1496c9f952b11e966c499ccbb9d1af1cfdba83e48378d48379",
+                "hash":  "SHA256:21d86b6dcfb020ba83002914b81cb4454d67773235ff9875ae0a8011e6ec4ab7",
                 "archiveRelativePath":  "./CrunchBangplusplus/logo.png"
             },
             "symbol":  {
                 "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/CrunchBangplusplus/symbol.png",
-                "hash": "SHA256:c6ff7e3eb0d1dd1496c9f952b11e966c499ccbb9d1af1cfdba83e48378d48379",
+                "hash": "SHA256:da27302013c063ea31bbc42322979e4b759778f8be5acd67735167f4153e2b27",
                 "archiveRelativePath": "./CrunchBangplusplus/symbol.png"
             },
             "thumbnail":  {
