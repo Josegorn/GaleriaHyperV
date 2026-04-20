@@ -60,7 +60,7 @@
             ]
         },
         {
-            "name": "Q4OS",
+            "name": "Q4OS Live",
             "version": "6.6 (Andromeda)",
             "locale": "en-US",
             "publisher": "https://www.q4os.org/",
@@ -83,7 +83,7 @@
                 "archiveRelativePath": "q4os-6.6-x64.r1.iso"
             },
             "logo": {
-                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Q4OS/thumbnail-plasma.png",
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Q4OS/logo.png",
                 "hash": "sha256:b32035903158e06c59c613f159069876aaca9b9dc28dc03f0ebe6731d2dce8d7",
                 "archiveRelativePath": "./Q4OS/logo.png"
             },
@@ -113,7 +113,7 @@
             ]
         },
         {
-            "name": "Q4OS",
+            "name": "Q4OS Trinity",
             "version": "6.6 (Andromeda)",
             "locale": "en-US",
             "publisher": "https://www.q4os.org/",
@@ -136,29 +136,32 @@
                 "archiveRelativePath": "q4os-6.6-x64-instcd.r1.iso"
             },
             "logo": {
-                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/logo.jpg",
-                "hash": "sha256:22D01B82AE1B1178906825DF1368F88FCCB608D65AA4375C2C2E1461272648B3"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Q4OS/logo.png",
+                "hash": "sha256:b32035903158e06c59c613f159069876aaca9b9dc28dc03f0ebe6731d2dce8d7",
+                "archiveRelativePath": "./Q4OS/logo.png"
             },
             "symbol": {
-                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/logo.jpg",
-                "hash": "sha256:22D01B82AE1B1178906825DF1368F88FCCB608D65AA4375C2C2E1461272648B3"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Q4OS/symbol.png",
+                "hash": "sha256:7f8ff99728c00fdb37f0e4387c4167e408e29cdcb9ec4cfe3e37b4a223c0b956",
+                "archiveRelativePath": "./Q4OS/symbol.png"
             },
             "thumbnail": {
-                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/thumbnail.jpg",
-                "hash": "sha256:5CDCDB180C28690467C45BCE08494CC3C50B4D33E03256A6721D945FD06B2641"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Q4OS/thumbnail-trinity.jpg",
+                "hash": "sha256:28e550fc4051c47381d07b766cb790acec217fe9da41610d7949e2e587b44802",
+                "archiveRelativePath": "./Q4OS/thumbnail-trinity.jpg"
             },
             "details": [
                 {
-                "name": "Edition",
-                "value": "Q4OS Andromeda (Trinity)"
+                    "name": "Edition",
+                    "value": "Q4OS Andromeda (Trinity)"
                 },
                 {
-                "name": "Copyright",
-                "value": "Copyright (c) Q4OS"
+                    "name": "Copyright",
+                    "value": "Copyright (c) Q4OS"
                 },
                 {
-                "name": "License",
-                "value": "https://www.q4os.org"
+                    "name": "License",
+                    "value": "https://www.q4os.org"
                 }
             ]
         }
