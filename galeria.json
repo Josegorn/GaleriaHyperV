@@ -104,7 +104,7 @@
             "details": [
                 {
                     "name": "Edición",
-                    "value": "Q4OS Andromeda (Plasma)"
+                    "value": "Plasma"
                 },
                 {
                     "name": "Copyright",
@@ -161,7 +161,7 @@
             "details": [
                 {
                     "name": "Edición",
-                    "value": "Q4OS Andromeda (Trinity)"
+                    "value": "Trinity"
                 },
                 {
                     "name": "Copyright",
@@ -217,10 +217,6 @@
             },
             "details": [
                 {
-                    "name": "Edición",
-                    "value": "10.1"
-                },
-                {
                     "name": "Copyright",
                     "value": "Copyright (c) Oracle"
                 },
@@ -274,10 +270,6 @@
             },
             "details": [
                 {
-                    "name": "Edición",
-                    "value": "26.01"
-                },
-                {
                     "name": "Copyright",
                     "value": "Copyright (c) GhostBSD"
                 },
@@ -288,6 +280,60 @@
                 {
                     "name": "Requisitos",
                     "value": "8 GiB RAM, 15 GiB en disco"
+                }
+            ]
+        },
+        {
+            "name": "Solus Budgie",
+            "version": "4.9",
+            "locale": "en-US",
+            "publisher": "https://getsol.us",
+            "lastUpdated": "2026-04-20T08:05:00Z",
+            "description": [
+                "Imagen Live de Solus Budgie",
+                "\r\n\r\n",
+                "https://getsol.us",
+                "\r\n\r\n"
+            ],
+                "config": {
+                "secureBoot": "false"
+            },
+                "requirements": {
+                "diskSpace": "4402341478"
+            },
+            "disk": {
+                "uri": "https://downloads.getsol.us/isos/2026-04-18/Solus-Budgie-Release-2026-04-18.iso",
+                "hash": "sha256:b99324e51d20d029f35932770a7d0f43dad64dc9bca11ec34a6b83cea603b579",
+                "archiveRelativePath": "Solus-Budgie-Release-2026-04-18.iso"
+            },
+            "logo": {
+                "uri": "https://getsol.us/imgs/Solus_With_Text_Dark.svg",
+                "hash": "sha256:7214fb4c21b5cd1565fc4118b6bba5e162c4839129a16f2ac7fed4ac7a8c66f5"
+            },
+            "symbol": {
+                "uri": "https://getsol.us/imgs/Solus.svg",
+                "hash": "sha256:0847f800ac73cc47cc9a6632c09e3f44cc6f653522d91924b113dcba3a5b50e3"
+            },
+            "thumbnail": {
+                "uri": "https://getsol.us/imgs/laptop-image.webp",
+                "hash": "sha256:9999205a703a18550d2e0cbbb2f2a0b888e01b25defb608369328101c17d37e8"
+            },
+            "details": [
+                {
+                    "name": "Edición",
+                    "value": "Budgie"
+                },
+                {
+                    "name": "Copyright",
+                    "value": "Copyright (c) Solus"
+                },
+                {
+                    "name": "Website",
+                    "value": "https://getsol.us"
+                },
+                                {
+                    "name": "Requisitos",
+                    "value": "4 GiB RAM, 9,3 GiB en disco"
                 }
             ]
         }
