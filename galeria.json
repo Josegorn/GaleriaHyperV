@@ -83,32 +83,32 @@
                 "archiveRelativePath": "q4os-6.6-x64.r1.iso"
             },
             "logo": {
-                "uri": "https://www.q4os.org/style/banner.jpg",
-                "hash": "sha256:7720c5c1d342dd6f2ce186a81b29776e61adc16f7059ae40579a02751ed9c527",
-                "archiveRelativePath": "./Q4OS/logo.jpg"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Q4OS/thumbnail-plasma.png",
+                "hash": "sha256:b32035903158e06c59c613f159069876aaca9b9dc28dc03f0ebe6731d2dce8d7",
+                "archiveRelativePath": "./Q4OS/logo.png"
             },
             "symbol": {
-                "uri": "https://www.q4os.org/style/favicon.png",
-                "hash": "sha256:ff4531a96f96e5914fe1135c377fbe0cf0f39c256adb57d12409caae0a918382",
-                "archiveRelativePath": "./Q4OS/favicon.png"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Q4OS/symbol.png",
+                "hash": "sha256:7f8ff99728c00fdb37f0e4387c4167e408e29cdcb9ec4cfe3e37b4a223c0b956",
+                "archiveRelativePath": "./Q4OS/symbol.png"
             },
             "thumbnail": {
-                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Q4OS/thumbnail-plasma.jpg",
-                "hash": "sha256:f7ecc619dca5f8ce8cbad7892b7c033450b5ab34811106daad282dfdafd73bb9",
-                "archiveRelativePath": "./Q4OS/thumbnail-plasma.jpg"
+                "uri": "https://raw.githubusercontent.com/Josegorn/GaleriaHyperV/refs/heads/main/Q4OS/thumbnail-plasma.png",
+                "hash": "sha256:dc9cec74fee816e0632b40f6041eec2a20e4c28ec78b372306cbf4e644057a04",
+                "archiveRelativePath": "./Q4OS/thumbnail-plasma.png"
             },
             "details": [
                 {
-                "name": "Edition",
-                "value": "Q4OS Andromeda (Plasma)"
+                    "name": "Edition",
+                    "value": "Q4OS Andromeda (Plasma)"
                 },
                 {
-                "name": "Copyright",
-                "value": "Copyright (c) Q4OS"
+                    "name": "Copyright",
+                    "value": "Copyright (c) Q4OS"
                 },
                 {
-                "name": "License",
-                "value": "https://www.q4os.org"
+                    "name": "License",
+                    "value": "https://www.q4os.org"
                 }
             ]
         },
