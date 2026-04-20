@@ -6,7 +6,7 @@
             "version": "CrunchBangplusplus 13.0 Trixie",
             "locale":  "en_US",
             "publisher":  "https://crunchbangplusplus.org",
-            "lastUpdated":  "2026-04-19T08:40:35Z",
+            "lastUpdated":  "2026-04-19T08:40:00Z",
             "description":  [
                 "CrunchBang++ (o #!++) es una distribución de Linux basada en Debian, diseñada para ser extremadamente ligera, rápida y minimalista.",
                 "\r\n",
@@ -46,7 +46,7 @@
             },
             "details": [
                 {
-                    "name": "Edition",
+                    "name": "Edición",
                     "value": "Trixie (Debian 10)"
                 },
                 {
@@ -54,8 +54,12 @@
                     "value": "Copyright (c) Crunchbangplusplus"
                 },
                 {
-                    "name": "License",
+                    "name": "Website",
                     "value": "https://crunchbangplusplus.org"
+                },
+                {
+                    "name": "Requisitos",
+                    "value": "256 MiB RAM, 10 GiB en disco"
                 }
             ]
         },
@@ -64,7 +68,7 @@
             "version": "6.6 (Andromeda)",
             "locale": "en-US",
             "publisher": "https://www.q4os.org/",
-            "lastUpdated": "2026-04-20T01:59:59Z",
+            "lastUpdated": "2026-04-20T01:59:00Z",
             "description": [
                 "Imagen Live de Q4OS Andromeda (Plasma Desktop Edition)",
                 "\r\n\r\n",
@@ -99,7 +103,7 @@
             },
             "details": [
                 {
-                    "name": "Edition",
+                    "name": "Edición",
                     "value": "Q4OS Andromeda (Plasma)"
                 },
                 {
@@ -107,8 +111,12 @@
                     "value": "Copyright (c) Q4OS"
                 },
                 {
-                    "name": "License",
+                    "name": "Website",
                     "value": "https://www.q4os.org"
+                },
+                {
+                    "name": "Requisitos",
+                    "value": "1 GiB RAM, 8 GiB en disco"
                 }
             ]
         },
@@ -117,7 +125,7 @@
             "version": "6.6 (Andromeda)",
             "locale": "en-US",
             "publisher": "https://www.q4os.org/",
-            "lastUpdated": "2026-04-20T01:59:59Z",
+            "lastUpdated": "2026-04-20T01:59:00Z",
             "description": [
                 "Instalación de Q4OS Andromeda (Trinity Desktop Edition)",
                 "\r\n\r\n",
@@ -152,7 +160,7 @@
             },
             "details": [
                 {
-                    "name": "Edition",
+                    "name": "Edición",
                     "value": "Q4OS Andromeda (Trinity)"
                 },
                 {
@@ -160,8 +168,12 @@
                     "value": "Copyright (c) Q4OS"
                 },
                 {
-                    "name": "License",
+                    "name": "Website",
                     "value": "https://www.q4os.org"
+                },
+                {
+                    "name": "Requisitos",
+                    "value": "512 MiB RAM, 6 GiB en disco"
                 }
             ]
         },
@@ -170,7 +182,7 @@
             "version": "10.1",
             "locale": "en-US",
             "publisher": "sirredbeard on GitHub",
-            "lastUpdated": "2026-04-20T06:20:59Z",
+            "lastUpdated": "2026-04-20T06:20:00Z",
             "description": [
                 "Full DVD of Oracle Linux 10.1",
                 "\r\n\r\n",
@@ -205,7 +217,7 @@
             },
             "details": [
                 {
-                    "name": "Edition",
+                    "name": "Edición",
                     "value": "10.1"
                 },
                 {
@@ -213,8 +225,66 @@
                     "value": "Copyright (c) Oracle"
                 },
                 {
-                    "name": "License",
+                    "name": "Website",
                     "value": "https://www.oracle.com/linux"
+                },
+                {
+                    "name": "Requisitos",
+                    "value": "2 CPU lógicos, 1,5GiB RAM por CPU lógico. 10 GiB en disco"
+                }
+            ]
+        },
+        {
+            "name": "GhostBSD",
+            "version": "26.01 R15.0p2",
+            "locale": "en-US",
+            "publisher": "http://www.ghostbsd.org",
+            "lastUpdated": "2026-04-20T06:53:00Z",
+            "description": [
+                "Imagen Live de GhostBSD 26.01",
+                "\r\n\r\n",
+                "http://www.ghostbsd.org",
+                "\r\n\r\n"
+            ],
+            "config": {
+            "secureBoot": "false"
+            },
+            "requirements": {
+            "diskSpace": "28290580480"
+            },
+            "disk": {
+            "uri": "https://download.ghostbsd.org/releases/amd64/26.1-R15.0p2/GhostBSD-26.1-R15.0p2.iso",
+                "hash": "sha256: ff6c4df357df412d3b0c87e054204682b7c13e0cb90bcf61dcda58528a4f948e",
+                "archiveRelativePath": "GhostBSD19.04.iso"
+            },
+            "logo": {
+                "uri": "https://www.ghostbsd.org/sites/default/files/ghostbsd.png",
+                "hash": "sha256:e72299499db450f3627bf7ef45b2ed32a15da4c33dae0488427e1040ee49d8ef"
+            },
+            "symbol": {
+                "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/ghostbsd/logo.jpg",
+                "hash": "sha256:6E9D1F8AC4F20592C77F68BF90B32E2E9535D8E877A9400AC40AB988CDCBBB87"
+            },
+            "thumbnail": {
+                "uri": "https://www.ghostbsd.org/sites/default/files/field/image/Screenshot%20at%202023-06-04%2019-27-04.png",
+                "hash": "sha256:1bf7bd6a206419e24935890297366c79274aa97394d06574cabac1ca06e60a58"
+            },
+            "details": [
+                {
+                    "name": "Edición",
+                    "value": "26.01"
+                },
+                {
+                    "name": "Copyright",
+                    "value": "Copyright (c) GhostBSD"
+                },
+                {
+                    "name": "Website",
+                    "value": "http://www.ghostbsd.org/"
+                },
+                {
+                    "name": "Requisitos",
+                    "value": "8 GiB RAM, 15G iB en disco"
                 }
             ]
         }
